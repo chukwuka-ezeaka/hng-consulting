@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST["login"])) {
 		if($email === $user['email'] && $password === $user['password']){
 			
 			$_SESSION['user'] = $user['email'];
-			header('location:../home.php');
+			header('location:../welcome.php');
 			exit;
 		}
 	}
