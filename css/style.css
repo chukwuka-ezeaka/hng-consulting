@@ -66,6 +66,14 @@ h1 {
   font-weight: 400
 }
 
+.form-home{
+  margin-top: 35%;
+  margin-left: -25%;
+  text-align: left;
+  font-size: 3rem;
+  font-weight: 400
+}
+
 input {
   border: none;
   border-bottom: 1.5px solid #777;
