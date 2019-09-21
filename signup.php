@@ -16,8 +16,8 @@ include('common/functions.php');
 <body>
     <section class="section-main">
         <div class="main-bg">
-            <h1 style="margin-top: 55%">Hng Consulting</h1>
-            <p style="color: #fff; font-size: 3rem;text-align: left; ">
+            <h1>Hng Consulting</h1>
+            <p class="text">
                 We allow small businesses thrive by delivering a strategy that enables them conduct business in a safer digital environment
             </p>
         </div>
@@ -40,14 +40,22 @@ include('common/functions.php');
                 <input type="email" name="email" placeholder="Email address" class="signup-page" required>
                 <input type="password" name="password1" placeholder="Password" class="signup-page" required>
                 <input type="password" name="password2" placeholder="Confirm Password" class="signup-page" required>
-                <button class="btn-submit" name="signup" value="signup" type="submit">Register</button>
+                <button class="btn btn-submit" name="signup" value="signup" type="submit">Register</button>
             </form>
-            <h3 class="create-account-signup">Already have account ? <button class="btn-start" onclick="login()">Login</button></h3> 
+            <h3 class="create-account">Already have account ? <button class="btn btn-start" onclick="login()">Login</button></h3> 
         </div>
     </section>
     <script>
         function login(){
-            window.location.href = "index.php";
+            // var xhttp = new XMLHttpRequest();
+            // xhttp.onreadystatechange = function() {
+            //     if (this.readyState == 4 && this.status == 200) {
+            //         document.write(this.responseText);
+                    window.location.href = "index.php";
+            //     }
+            // };
+            // xhttp.open("GET", "index.php", true);
+            // xhttp.send();
         }
     </script>
 </body>

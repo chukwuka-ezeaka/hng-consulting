@@ -17,8 +17,8 @@ include('common/functions.php');
 <body>
     <section class="section-main">
         <div class="main-bg">
-            <h1 style="margin-top: 55%">Hng Consulting</h1>
-            <p style="color: #fff; font-size: 3rem;text-align: left; ">
+            <h1>Hng Consulting</h1>
+            <p class="text">
                 We allow small businesses thrive by delivering a strategy that enables them conduct business in a safer digital environment
             </p>
         </div>
@@ -26,7 +26,7 @@ include('common/functions.php');
             <h3 class="small-text">Hotels.ng</h3>
             <h4 class="form-home">You are now logged in with the account <?php echo $_SESSION['user'];?></h4>
       
-            <h3 class="create-account"><button class="btn-start" onclick="logout()">Log out</button></h3>
+            <h3 class="create-account"><button class="btn btn-start" onclick="logout()">Log out</button></h3>
         </div>
     </section>
     <script>
